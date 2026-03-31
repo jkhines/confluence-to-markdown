@@ -1,9 +1,38 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
-output/
-*.log
+*.tsbuildinfo
+
+# Yarn PnP
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Environment
 .env
+.env.*
+
+# Logs
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test
+coverage/
+
+# Project-specific
+output/
 *.md
 !README.md
-
